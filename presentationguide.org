@@ -1,0 +1,26 @@
+* Why you will want to move to FP?
+  - [ ] As a developer you will improve learning a new paradigm
+  - [ ] Terse languages
+    - [ ] Less code
+    - [ ] Easier to reason about
+  - [ ] Easier concurrency and parallelism
+* What is different
+** Classes/Interfaces vs Functions
+  - [ ] C# Sample
+  - [ ] F# Sample
+** State as a function of time ???
+  - [ ] Jave sample
+  - [ ] Clojure Sample
+** Chaining
+  - [ ] Python Sample
+  - [ ] Elixir Sample
+** Pattern matching
+  - [ ] C# Sample
+  - [ ] F# Sample
+  - [ ] Elixir Sample
+** Recursion and TCO
+  - [ ] C# Sample
+  - [ ] F# Sample
+** Homoiconity ???
+  - [ ] Javas Sample
+  - [ ] Clojure Sample
