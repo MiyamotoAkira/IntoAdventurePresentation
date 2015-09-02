@@ -21,6 +21,12 @@
 ** Recursion and TCO
   - [ ] C# Sample
   - [ ] F# Sample
-** Homoiconity ???
+** Lazy evaluation
+  - [ ] Java Sample
+  - [ ] Clojure Sample
+** Concurrency
+  - [ ] Python Sample
+  - [ ] Elixir Sample
+** Homoiconity
   - [ ] Javas Sample
   - [ ] Clojure Sample

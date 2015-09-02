@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuelCardsEngine", "DuelCardsEngine\DuelCardsEngine.csproj", "{53F6AD37-3C76-4257-88B8-327426BB7E69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{5F769B16-1F88-4FC0-A5A4-A53CD1C42034}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration Tests", "Integration Tests", "{AC8A9782-53D1-4870-99A9-71B0D091E717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F6AD37-3C76-4257-88B8-327426BB7E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F6AD37-3C76-4257-88B8-327426BB7E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F6AD37-3C76-4257-88B8-327426BB7E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F6AD37-3C76-4257-88B8-327426BB7E69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
