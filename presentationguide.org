@@ -6,13 +6,16 @@
   - [ ] Easier concurrency and parallelism
 * What is different
 ** Classes/Interfaces vs Functions
-  - [ ] C# Sample
-  - [ ] F# Sample
+  - [ ] C# sample
+  - [ ] F# sample
+** Binding and Assignment
+  - [ ] Ruby sample
+  - [ ] Elixir sample
 ** State as a function of time ???
   - [ ] Jave sample
   - [ ] Clojure Sample
 ** Chaining
-  - [ ] Python Sample
+  - [ ] Ruby Sample
   - [ ] Elixir Sample
 ** Pattern matching
   - [ ] C# Sample
@@ -25,8 +28,8 @@
   - [ ] Java Sample
   - [ ] Clojure Sample
 ** Concurrency
-  - [ ] Python Sample
+  - [ ] Ruby Sample
   - [ ] Elixir Sample
 ** Homoiconity
-  - [ ] Javas Sample
+  - [ ] Java] Sample
   - [ ] Clojure Sample
