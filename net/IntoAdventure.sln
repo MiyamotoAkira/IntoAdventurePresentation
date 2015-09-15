@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndInterfaces", "ClassesAndInterfaces\ClassesAndInterfaces.csproj", "{522FB624-E868-4CAD-A72D-BE4C593579E1}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "Functions", "Functions\Functions.fsproj", "{4475408E-5FFB-47F2-A259-094707418F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfHost", "OwinSelfHost\OwinSelfHost.csproj", "{78925A62-2360-4C96-99C4-4BE518B620D2}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "OwinSelfHostFSharp", "OwinSelfHostFSharp\OwinSelfHostFSharp.fsproj", "{9022F4F7-2BE9-4C3B-8D0D-EC9B74F937F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4475408E-5FFB-47F2-A259-094707418F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4475408E-5FFB-47F2-A259-094707418F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4475408E-5FFB-47F2-A259-094707418F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4475408E-5FFB-47F2-A259-094707418F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522FB624-E868-4CAD-A72D-BE4C593579E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522FB624-E868-4CAD-A72D-BE4C593579E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522FB624-E868-4CAD-A72D-BE4C593579E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522FB624-E868-4CAD-A72D-BE4C593579E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78925A62-2360-4C96-99C4-4BE518B620D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78925A62-2360-4C96-99C4-4BE518B620D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78925A62-2360-4C96-99C4-4BE518B620D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78925A62-2360-4C96-99C4-4BE518B620D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9022F4F7-2BE9-4C3B-8D0D-EC9B74F937F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9022F4F7-2BE9-4C3B-8D0D-EC9B74F937F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9022F4F7-2BE9-4C3B-8D0D-EC9B74F937F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9022F4F7-2BE9-4C3B-8D0D-EC9B74F937F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
