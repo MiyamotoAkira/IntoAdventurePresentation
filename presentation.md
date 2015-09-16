@@ -19,6 +19,8 @@ We have Ruby and Elixir. They don't share a vm. Ruby has its own while Elixir us
 
 Nothing new under the sun if you have done procedural languages before
 
+Look at them as if they were static classes with static methods. Which is what F# does to translate to CLR
+
 SOLID and Clean Code principles still apply very much to FP
 
 Design patterns, though, are completely different. FP has its own patterns.
@@ -30,6 +32,47 @@ As an OO programmer never cared.
 Binding is about identifying a piece of code or data inside a scope. Once you leave the scope the identifer is gone, but not the data or the code.
 
 Assignment is changing the value of the data of something for the lifetime of that something. Where something can be a strutcture/record/object
+
+irb bindingvsassignment.rb
+
+-- Here we can see that z inside print_value refers to the y parameter, which is in fact x
+
+x = ExampleObject.new "This is a string"
+print_value x
+puts x
+
+--  We are going to create an assigner object
+assigner = TheAssigner.new
+
+puts "Example object before"
+puts assigner.firstExample
+
+-- we can see that we are ching the value inside assigner
+assigner.assign_new_value "Another value"
+
+puts "Example object after"
+puts assigner.firstExample
+
+
+-- But of course, this affects outside
+second = ExampleObject.new "Second object"
+
+puts "second object before assignment"
+puts second
+
+assigner.add_new_object second
+puts "Second object before"
+puts assigner.secondExample
+
+assigner.modify_second_object "Another second value"
+
+puts "Second object after"
+puts assigner.secondExample
+
+puts "second object after assignment"
+puts second
+
+
 
 
 ### State
