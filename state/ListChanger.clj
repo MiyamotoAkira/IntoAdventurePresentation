@@ -2,7 +2,33 @@
 
 
 (defn list-changer []
-  (let [list '(1 2 3)
-       list2 (conj list 4 5)]
-       (println list)
-       (println list2)))
+  (let [first [1 2 3]
+       second (conj first 4 5)]
+       (println first)
+       (println second)))
+
+
+(defn list-changer2 []
+  (let [first [1 2 3]
+       first (conj first 4 5)]
+       (println first)))
+
+
+(defn list-changer3 []
+  (let [first [1 2 3]
+        second first
+        second (conj second 4 5)]
+       (println first)
+       (println second)))
+
+
+
+
+
+
+
+
+
+
+
+
