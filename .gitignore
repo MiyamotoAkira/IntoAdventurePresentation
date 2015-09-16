@@ -279,3 +279,8 @@ build/
 
 # Mac file
 .DS_Store
+
+
+# emacs
+\#*\#
+.\#
