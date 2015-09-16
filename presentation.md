@@ -6,6 +6,14 @@ Let's be clear, there is really only one difference. But is a major one. The res
 
 I'm not an expert on FP. I'm still very much learning.
 
+The code we are going to be looking at is from 6 languages coupled into three.
+
+We have C# and F# for the .Net world
+
+We have Java and Clojure for the JVM world
+
+We have Ruby and Elixir. They don't share a vm. Ruby has its own while Elixir uses BEAM. But the creator of Elixir Jose Valim was a contributor to Ruby On Rails and the syntax of Ruby has influenced Elixir.
+
 
 ### Classes/Interfaces vs functions
 
