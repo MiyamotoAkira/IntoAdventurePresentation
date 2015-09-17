@@ -77,7 +77,22 @@ puts second
 
 ### State
 
-This. This is the major difference. What makes FP. Eliminating state makes a whole lot of problems dissapear. Of course, there are always other issues. But because of the lack of state is much easier to know what a part of the code is doing. 
+This. This is the major difference. What makes FP. Eliminating state makes a whole lot of problems dissapear. Of course, there are always other issues. But because of the lack of state is much easier to know what a part of the code is doing.
+
+Let's look at some Java code
+
+Let's going to try to replicate on Clojure
+
+First function, creates a new version of the list
+
+Second function is rebinding the identifier
+
+We can see even better if we use pass the sequence:
+(let [array [1 2 3]]
+(listchanger/list-changer2' array)
+(println array))
+
+Or inside the same method
 
 ### Chaining
 
@@ -88,3 +103,11 @@ Fluent interfaces.
 Is in the roadmap of C#.
 
 To be easy to understand is a switch on steroids
+
+Show on C#
+
+Show basic on F#
+
+Show deconstruction and guards
+
+Show Elixir pattern matching on functions. Unlike overloading, arity and data type can be the same
