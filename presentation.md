@@ -102,7 +102,9 @@ Fluent interfaces.
 
 Is in the roadmap of C#.
 
-To be easy to understand is a switch on steroids
+To be easy to understand is a switch on steroids.
+
+Though it is more than that. Pattern matching is about finding a value that satisfies the condition. There is a decision, a type of if.
 
 Show on C#
 

@@ -10,15 +10,18 @@ class ExampleObject
 		@sentence = sentence
 	end
 
-    def set_sentence(value)
-      @sentence = value
-    end
     
 	def to_s
 		"#{@sentence}"
 	end
 end
 
+
+class ExampleObject
+    def set_sentence(value)
+      @sentence = value
+    end
+end
 
 def print_value (y)
 	z = y
